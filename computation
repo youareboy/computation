@@ -1,0 +1,13 @@
+#!/bin/bash
+#从1+2+3+···+100的结果
+
+sum=0
+i=1
+
+for i in `seq 1 100`
+do
+ 
+ sum=$(($sum+i))
+ i=$(($i+1))
+
+done
